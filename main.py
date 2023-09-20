@@ -1,4 +1,4 @@
-from Transaction import *
+from Transaction import Transactions, accountFile, Customers, Banks
 
 
 def do_transactions() -> None:
@@ -49,7 +49,7 @@ def create_account() -> None:
         customer = Customers()
         customer.set_name(full_name)
 
-        bank = Bank()
+        bank = Banks()
         bank.set_pin(pin)
         bank.create_account(customer)
 

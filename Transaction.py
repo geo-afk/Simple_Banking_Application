@@ -1,4 +1,4 @@
-from Bank import accountFile, dataclass, json
+from Bank import accountFile, dataclass, json, Customers, Banks
 
 
 @dataclass
