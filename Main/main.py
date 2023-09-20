@@ -1,5 +1,11 @@
-from Transaction import Transactions, accountFile, Customers, Banks
+from Operations.Transaction import Transactions, accountFile, Customers, Banks
 
+# Transaction Fee
+# except (ValueError, AttributeError):
+# Set Constants
+# format floats :.2f
+# ?🤔 Loan
+# Add staff Functionalities
 
 def do_transactions() -> None:
     output = """
