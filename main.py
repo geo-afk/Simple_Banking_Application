@@ -1,7 +1,4 @@
-# import sys
-import json
-import random
-# import getpass
+from Transaction import *
 
 
 def do_transactions() -> None:
